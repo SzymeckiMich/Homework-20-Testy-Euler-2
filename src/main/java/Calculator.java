@@ -1,6 +1,6 @@
 public class Calculator {
 
-    public long sumOfEvenNumbersToLimit(long limit) {
+    public long sumOfEvenNumbersInFibonacciSequenceToLimit(long limit) {
         long firstNumber = 0;
         long secondNumber = 1;
         long sum = 0;

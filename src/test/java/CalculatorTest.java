@@ -13,7 +13,7 @@ public class CalculatorTest {
         final int LIMIT = 9;
 
         // when
-        long result = systemUnderTest.sumOfEvenNumbersToLimit(LIMIT);
+        long result = systemUnderTest.sumOfEvenNumbersInFibonacciSequenceToLimit(LIMIT);
         long expectedValue = 10;
 
         //then
@@ -27,7 +27,7 @@ public class CalculatorTest {
         final int LIMIT = 100;
 
         // when
-        long result = systemUnderTest.sumOfEvenNumbersToLimit(LIMIT);
+        long result = systemUnderTest.sumOfEvenNumbersInFibonacciSequenceToLimit(LIMIT);
         long expectedValue = 188;
 
         //then
@@ -41,7 +41,7 @@ public class CalculatorTest {
         final int LIMIT = -1;
 
         // when
-        long result = systemUnderTest.sumOfEvenNumbersToLimit(LIMIT);
+        long result = systemUnderTest.sumOfEvenNumbersInFibonacciSequenceToLimit(LIMIT);
         long expectedValue = 0;
 
         //then
@@ -55,7 +55,7 @@ public class CalculatorTest {
         final int LIMIT = 0;
 
         // when
-        long result = systemUnderTest.sumOfEvenNumbersToLimit(LIMIT);
+        long result = systemUnderTest.sumOfEvenNumbersInFibonacciSequenceToLimit(LIMIT);
         long expectedValue = 0;
 
         //then
@@ -69,7 +69,7 @@ public class CalculatorTest {
         final int LIMIT = 4000000;
 
         // when
-        long result = systemUnderTest.sumOfEvenNumbersToLimit(LIMIT);
+        long result = systemUnderTest.sumOfEvenNumbersInFibonacciSequenceToLimit(LIMIT);
         long expectedValue = 4613732;
 
         //then

@@ -3,6 +3,6 @@ public class Main {
         Calculator calculator = new Calculator();
 
 
-        System.out.println(calculator.sumOfEvenNumbersToLimit(4000000));
+        System.out.println(calculator.sumOfEvenNumbersInFibonacciSequenceToLimit(4000000));
     }
 }
