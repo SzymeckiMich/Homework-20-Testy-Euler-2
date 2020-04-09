@@ -6,15 +6,18 @@ public class Calculator {
         long sum = 0;
         long evenSum = 0;
 
-        while (sum <= limit) {
+        while (true) {
             sum = firstNumber + secondNumber;
-            firstNumber = secondNumber;
-            secondNumber = sum;
-            if (sum % 2 == 0) {
-                evenSum += sum;
+            if (sum > limit) {
+                return evenSum;
+            } else {
+                if (sum % 2 == 0) {
+                    evenSum += sum;
+                }
+                firstNumber = secondNumber;
+                secondNumber = sum;
             }
         }
-        return evenSum;
     }
 
 }
